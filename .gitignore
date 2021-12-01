@@ -1,0 +1,54 @@
+**/target/
+
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+application-*.yml
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+log4j2-*.xml
+node/service/src/test/java/com/fmrt/trade/utils/RoomTypeTest2.java
+node/service/src/test/java/com/fmrt/trade/mock/*
+web/account/src/test/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+local_test/
+/.nb-gradle/
+
+### vscode ###
+.vscode
+
+### Build targets ###
+**/*.log
+
+### Test Project, Ignore
+/test/
+/logs/
+.vertx/
+common/sdk/.vertx/
+node/api/src/main/java/com/fmrt/trade/controller/TestController.java
+node/admin/src/main/java/com/fmrt/trade/test/
+node/admin/src/test/java/com/fmrt/trade/controller/
+common/domain
+
+
+### for Python
+**/venv
+*.pid
+
